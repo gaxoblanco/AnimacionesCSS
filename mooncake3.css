@@ -1,0 +1,24 @@
+.leyer-4{
+    z-index: 4;
+    width: 80px;
+    height: 390px;
+    left: 30px;
+    animation-name: layer3;
+    animation-duration: 3.3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+@keyframes layer3{
+    0%{
+        height: 390px;
+    }
+    60%{
+        height: 220px;
+    }
+    100%{
+        height: 390px;
+    }
+}
+.leyer-3 input[type="checkbox"]{
+    
+}

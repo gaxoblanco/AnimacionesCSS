@@ -45,6 +45,7 @@
     left: 8px;
 }
 .head{
+    z-index: 1;
     width: 70px;
     height: 56px;
     border-radius: 50%;
@@ -73,7 +74,25 @@
     background-color: white;
     position: absolute;
     top: 18px;
+    animation-name: flap;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
 }
+@keyframes flap{
+    0%{
+        height: 18px;
+        top: 18px;
+    }
+    5%{
+        height: 4px;
+        top: 28px;
+    }
+    10%{
+        height: 18px;
+        top: 18px;
+    }
+}
+
 .eye-r{
     right: 6px;
 }
@@ -87,10 +106,27 @@
     margin: 0 auto;
     left: 0;
     right: 0;
-    top: 8px;
+    top: 6px;
     border-radius: 50%;
     background-color: black;
+
+    animation-name: opacity;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
 }
+@keyframes opacity{
+    0%{
+        opacity: 1;
+    }
+    5%{
+        opacity: 0;
+    }
+    10%{
+        opacity: 1;
+    }
+}
+
+
 .mouse{
     position: absolute;
     width: 12px;
