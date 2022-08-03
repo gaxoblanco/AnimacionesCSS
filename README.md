@@ -1,4 +1,4 @@
 # AnimacionesCSS
-Curs o de Animacion con CSS 
+Curso de Animacion con CSS 
 
 https://codepen.io/gaxoblanco/pen/dymmvZv
