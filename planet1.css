@@ -1,0 +1,16 @@
+.leyer-3{
+    z-index: 3;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 220px;
+    height: 400px;
+    background-color: rgb(105, 93, 81);
+    border-radius: 100px 100px 0 0;
+}
+
+.cater-position0{
+    rotate:26deg;
+    right: 16px;
+    top: 10px;
+}

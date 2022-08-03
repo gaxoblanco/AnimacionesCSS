@@ -1,0 +1,30 @@
+.leyer-7{
+    z-index: 7;
+    right: 0;
+    width: 170px;
+    height: 240px;
+    background-color: rgb(158, 158, 158);
+    border-radius: 130px 0 30px 0;
+}
+
+.cater-position2{
+    rotate:-70deg;
+    top: 80px;
+    left: -20px;
+}
+
+.cater-position3{
+    rotate:6deg;
+    top: 4px;
+    right: -10px;
+}
+.caterD{
+    position:absolute;
+    width: 45px;
+    height: 60px;
+    background-color: rgba(117, 116, 116, 0.278);
+    border-radius: 50%;
+    top: 50px;
+    right: 20px;
+    rotate: 16deg;
+}

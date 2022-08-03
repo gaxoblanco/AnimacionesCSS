@@ -1,0 +1,33 @@
+.crater{
+    position: absolute;
+    width: 80px;
+}
+.caterA{
+    position: absolute;
+    width: 24px;
+    height: 20px;
+    border-left: 3px solid rgb(71, 61, 51);
+    border-radius: 0 0 0 40px;
+    right: 2px;
+    top: 4px;
+}
+.caterB{
+    position: absolute;
+    width: 24px;
+    height: 20px;
+    border-right: 3px solid rgb(71, 61, 51);
+    border-radius: 0 0 40px 0;
+    left: 2px;
+    top: 4px;
+}
+.caterC{
+    position: absolute;
+    width: 24px;
+    height: 4px;
+    background-color: rgb(33, 29, 24);
+    border: 3px solid rgb(71, 61, 51);
+    border-radius: 50%;
+    margin: 0 auto;
+    left: 0px;
+    right: 0px;
+}

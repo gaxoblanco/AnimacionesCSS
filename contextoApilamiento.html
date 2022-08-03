@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./mooncake.css">
+    <link rel="stylesheet" href="./planet1.css">
+    <link rel="stylesheet" href="./planet2.css">
+    <link rel="stylesheet" href="./planet3.css">
+    <link rel="stylesheet" href="./crater.css">
+    <title>Document</title>
+    <style>
+
+        body{
+            margin: 0;
+            height: 100vh;
+            width: 100%;
+            background-color: gray;
+            display: grid;
+            place-items: center;
+        }
+
+        .phone{
+            border: 8px solid black;
+            position: relative;
+            border-radius:40px;
+            height: 600px;
+            width: 300px;
+            background-color: #e78efc;
+            background-image: linear-gradient(62deg, #e78efc 0%, #1b327b 100%);
+
+            box-shadow: 
+                0 19px 38px  rgba(0,0,0,0.30),
+                0 15px 12px  rgba(0,0,0,0.20);
+        }
+        .leyer{
+            position: absolute;
+            bottom: 0;
+        }
+        .leyer-1{
+            z-index: 1;
+            width: 80px;
+            height: 470px;
+            background-color: white;
+            right: 50px;
+        }
+        .leyer-2{
+            z-index: 2;
+            width: 80px;
+            height: 470px;
+            background-color: white;
+            left: 50px;
+        }
+
+        .leyer-4{
+            z-index: 4;
+            width: 80px;
+            height: 380px;
+            background-color: white;
+            left: 30px;
+        }
+        .leyer-6{
+            z-index: 6;
+            height: 300px;
+            width: 80px;
+            background-color: white;
+            right: 26px;
+        }
+        .leyer-8{
+            z-index: 8;
+            height: 140px;
+            width: 160px;
+            background-color: rgb(69, 80, 70);
+            right: 0;
+            left: 0;
+            margin: 0 auto;
+            border-radius: 80px 80px 0 0;
+        }
+        .cater-position4{
+            rotate: -30deg;
+            top: 20px;
+        }
+        .leyer-9{
+            z-index: 9;
+            height: 80px;
+            width: 100%;
+            background-color: rgb(114, 118, 114);
+            right: 0;
+            border-radius: 0 0 30px 30px;
+        }
+/* dibujo css */
+        
+
+    </style>
+</head>
+<body>
+    <div class="phone">
+        <!--Item 1-->
+        <div class="leyer leyer-1">
+            <div class="antena antena-r"> </div>
+            <div class="antena antena-l"> </div>
+
+            <div class="antena-point point-r"></div>
+            <div class="antena-point point-l"></div>
+
+            <div class="foot foot-r"></div>
+            <div class="foot foot-l"></div>
+
+            <div class="head">
+                <div class="reflex"></div>
+                <div class="eye eye-r">
+                    <div class="eye-point"></div>
+                </div>
+                <div class="eye eye-l">
+                    <div class="eye-point"></div>
+                </div>
+                <div class="mouse"></div>
+                <div class="shadow"></div>
+            </div>
+        </div>
+
+
+        <div class="leyer leyer-2"></div>
+
+        <div class="leyer leyer-3">
+            <div class="crater cater-position0">
+                <div class="caterA"></div>
+                <div class="caterB"></div>
+                <div class="caterC"></div>
+            </div>
+        </div>
+
+        <div class="leyer leyer-4"></div>
+
+
+        <div class="leyer leyer-5">
+            <div class="planet-shadow"></div>
+            <div class="crater cater-position1">
+                <div class="caterA"></div>
+                <div class="caterB"></div>
+                <div class="caterC"></div>
+            </div>
+        </div>
+
+
+        <div class="leyer leyer-6"></div>
+
+        <div class="leyer leyer-7">
+            <div class="crater cater-position2">
+                <div class="caterA"></div>
+                <div class="caterB"></div>
+                <div class="caterC"></div>
+            </div>
+            <div class="crater cater-position3">
+                <div class="caterA"></div>
+                <div class="caterB"></div>
+                <div class="caterC"></div>
+            </div>
+            <div class="caterD"></div>
+        </div>
+
+        <div class="leyer leyer-8">
+            <div class="crater cater-position4">
+                <div class="caterA"></div>
+                <div class="caterB"></div>
+                <div class="caterC"></div>
+            </div>
+        </div>
+        <div class="leyer leyer-9"></div>
+        
+    </div>
+</body>
+</html>
